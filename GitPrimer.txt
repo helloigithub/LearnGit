@@ -1,1 +1,20 @@
 			Git Primer
+	git init
+	git config --global user.name ""
+	git config --global user.mail ""
+	git add file
+	git commit -m ""
+	git diff
+	git diff HEAD -- file
+	git status
+	git reset --hard HEAD^
+	git reset HEAD file
+	git checkout -- file
+	git log
+	git log --pretty=oneline
+	git reflog
+	git rm
+	ssh-keygen -t rsa -C ""
+	git remote add origin git@github.com:id/item
+	git push -u origin master
+	
